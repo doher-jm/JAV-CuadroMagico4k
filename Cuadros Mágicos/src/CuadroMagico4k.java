@@ -35,10 +35,7 @@ public class CuadroMagico4k {
 	// bloques A,B,C,D,E,F,G,H,I en que se divide el cuadro original para su transformación
 	
 	class Bloque {
-		int x;
-		int y;
-		int nFil;
-		int nCol;
+		int x, y, nFil,nCol;
 
 		Bloque(int comienzoX, int comienzoY, int numFilas, int numColumnas) {
 			x = comienzoX;
